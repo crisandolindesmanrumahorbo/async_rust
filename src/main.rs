@@ -1,8 +1,4 @@
 use futures::executor::block_on;
-use futures::task::ArcWake;
-use futures::task::waker_ref;
-use std::pin::pin;
-use std::task::Waker;
 use std::{
     pin::Pin,
     sync::{Arc, Mutex},

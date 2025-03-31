@@ -7,3 +7,7 @@ edition = "2024"
 futures = "0.3"
 tokio = { version = "1", features = ["full"] }
 
+[workspace]
+resolver = "2"
+members = ["async_demo_sleep"]
+
