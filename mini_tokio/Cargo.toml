@@ -1,7 +1,8 @@
 [package]
-name = "async_demo_sleep"
+name = "mini_tokio"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+crossbeam = "0.8"
 futures = "0.3"

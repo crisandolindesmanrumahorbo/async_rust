@@ -9,5 +9,5 @@ tokio = { version = "1", features = ["full"] }
 
 [workspace]
 resolver = "2"
-members = ["async_demo_sleep"]
+members = ["async_demo_sleep", "mini_tokio", "tokio_demo"]
 
